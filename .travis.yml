@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: ioFnZWqLC0xrtmm205wjGxGjKREcN+/qAwSCHjj+swGQrhziVYvQABcUpTxxIPJrCMXv6C4M34+i+C3TQgmU1aQXe3xxwtlOSjeEsPjrN2iQiAyLmg+RcEif6ZeMH0no8PxM/AJB7QFAycNMxnbU119cIqJbpdECjAzap7NyOPEJUol1kHCbPxAeUsl+8tpCbtlE6STQjlmppGjnjGhyfPJq7hr9t2qfvpt57ihv7sMljucbXTTaK53utBzZPtpTSdqF4Cx/AJLEynUjEWxuIC7LSkXzr7ZP4jBsgcvN/Rt+o/j6u3LoLdCj62QoZIGDACk0v9SPu4lvC77yaZkubXCByx1+y0ccTNfWnEVmthVhaGOKige/Fdh7GnG8++7SCBpy11lbTDuoGsTPM8Z8q9095DhrPWSBABAmsm93doQi5t+NquTLzcK2h2E+Up+LI66X00BEQOLlb+2TU5hToM9A7Q5yJVjEu6i/aztl+4r4E1IjC3PLxof/7EyluSM8GByOhcQdrypU2rvT4tuuJA9g1WUjT6fLpP6g4gFMsCpbhQ4GXKs9t9TH8Te4zsUXH2VCOIJf0SQRByljNRKL8FAa0kzH/DpyXIj00o1xM/AGQKSbEb+hIhtegiepWYntFMDX0lJl5BBZsl10oirO0mGqFKsHcUKvKl8ImkblSZQ=
+  app: hidden-cove-71051
+  on:
+    repo: mulan114/shopping-integration-testing
